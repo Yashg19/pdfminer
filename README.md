@@ -46,6 +46,19 @@ How to Install
     $ pdf2txt.py samples/simple1.pdf
 
 
+How to extract font size and other stats from a pdf file or list of pdfs in a directory
+---------------------------------------------------------------------------------------
+
+ * Run `setup.py`:
+
+    $ python setup.py install
+
+* Run one of the following test:
+
+    $ python getpdffont.py -f <path_to_pdf>
+    $ python getpdffont.py -d <path_to_dir_containing_pdfs>
+
+
 For CJK Languages
 -----------------
 
