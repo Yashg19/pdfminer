@@ -49,13 +49,16 @@ How to Install
 How to extract font size and other stats from a pdf file or list of pdfs in a directory
 ---------------------------------------------------------------------------------------
 
- * Run `setup.py`:
+* Run `setup.py`:
 
     $ python setup.py install
 
-* Run one of the following test:
+* Run the following test to get the font details for a single pdf:
 
     $ python getpdffont.py -f <path_to_pdf>
+
+* Run the following test to get the font details for a single pdf:
+
     $ python getpdffont.py -d <path_to_dir_containing_pdfs>
 
 
