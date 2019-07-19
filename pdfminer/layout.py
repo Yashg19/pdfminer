@@ -228,6 +228,8 @@ class LTChar(LTComponent, LTText):
         self.matrix = matrix
         self.fontname = font.fontname
         self.adv = textwidth * fontsize * scaling
+        # Addint font size
+        self.fontsize = fontsize
         # compute the boundary rectangle.
         if font.is_vertical():
             # vertical
