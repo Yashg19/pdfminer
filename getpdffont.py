@@ -113,7 +113,6 @@ def main(argv):
     if not opts: return usage()
 
     for (k, v) in opts:
-        print('KeyValue = ', k, v)
         if k == '-f':
             get_font_stats(v)
         elif k == '-d':
